@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>day#6 Github users search</title>
+  </head>
+  <body>
+    <section class="main-container">
+      <header class="main-header">
+        <h2>devfinder</h2>
+
+        <div class="display-mode">
+          <h5>LIGHT</h5>
+          <ion-icon name="contrast-outline"></ion-icon>
+        </div>
+      </header>
+
+      <section class="search-section">
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="text" placeholder="Search Github username..." />
+        <button class="search-button">Search</button>
+      </section>
+
+      <main class="information-section">
+        <section class="user-main-information">
+          <div class="user-profile-img">
+            <img src="./images/github-image.png" alt="" />
+          </div>
+
+          <div class="user-info">
+            <div class="sc-flex">
+              <h1 class="user-full-name">Youssef El Mountahi</h1>
+              <h6 class="user-create-date">Joined 17 jan 2011</h6>
+            </div>
+            <h5 class="user-username">Elmountahiii</h5>
+            <p>Busy building cool stuff .</p>
+          </div>
+        </section>
+
+        <section class="stats-section">
+          <div class="repo-numbers">
+            <h1>Repository</h1>
+            <span>9</span>
+          </div>
+          <div class="followers-numbers">
+            <h1>Followers</h1>
+            <span>9</span>
+          </div>
+          <div class="following-numbers">
+            <h1>Following</h1>
+            <span>9</span>
+          </div>
+        </section>
+
+        <section class="social-media-section">
+          <div class="social-item location">
+            <ion-icon name="location-outline"></ion-icon>
+            <h4>Location</h4>
+          </div>
+          <div class="social-item twitter">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <h4>Twitter link</h4>
+          </div>
+          <div class="social-item blog">
+            <ion-icon name="link-outline"></ion-icon>
+            <h4>Blog link</h4>
+          </div>
+          <div class="social-item organization">
+            <ion-icon name="business-outline"></ion-icon>
+            <h4>Organization</h4>
+          </div>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
