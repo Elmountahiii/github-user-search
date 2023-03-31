@@ -29,14 +29,18 @@
 
       <section class="search-section">
         <ion-icon name="search-outline"></ion-icon>
-        <input type="text" placeholder="Search Github username..." />
+        <input
+          id="search-Input"
+          type="text"
+          placeholder="Search Github username..."
+        />
         <button class="search-button">Search</button>
       </section>
 
       <main class="information-section">
         <section class="user-main-information">
           <div class="user-profile-img">
-            <img src="./images/github-image.png" alt="" />
+            <img class="user-profile" src="./images/github-image.png" alt="" />
           </div>
 
           <div class="user-info">
@@ -45,41 +49,41 @@
               <h6 class="user-create-date">Joined 17 jan 2011</h6>
             </div>
             <h5 class="user-username">Elmountahiii</h5>
-            <p>Busy building cool stuff .</p>
+            <p class="user-bio">Busy building cool stuff .</p>
           </div>
         </section>
 
         <section class="stats-section">
           <div class="repo-numbers">
             <h1>Repository</h1>
-            <span>9</span>
+            <span class="repo-number">9</span>
           </div>
           <div class="followers-numbers">
             <h1>Followers</h1>
-            <span>9</span>
+            <span class="followers-number">9</span>
           </div>
           <div class="following-numbers">
             <h1>Following</h1>
-            <span>9</span>
+            <span class="following-number">9</span>
           </div>
         </section>
 
         <section class="social-media-section">
-          <div class="social-item location">
+          <div class="social-item">
             <ion-icon name="location-outline"></ion-icon>
-            <h4>Location</h4>
+            <h4 class="item-location">Location</h4>
           </div>
-          <div class="social-item twitter">
+          <div class="social-item">
             <ion-icon name="logo-twitter"></ion-icon>
-            <h4>Twitter link</h4>
+            <h4 class="item-twitter">Twitter link</h4>
           </div>
-          <div class="social-item blog">
+          <div class="social-item">
             <ion-icon name="link-outline"></ion-icon>
-            <h4>Blog link</h4>
+            <h4 class="item-blog">Blog link</h4>
           </div>
-          <div class="social-item organization">
+          <div class="social-item">
             <ion-icon name="business-outline"></ion-icon>
-            <h4>Organization</h4>
+            <h4 class="item-organization">Organization</h4>
           </div>
         </section>
       </main>

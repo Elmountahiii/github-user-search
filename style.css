@@ -24,6 +24,7 @@ img {
     display: block;
     width: 150px;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 
@@ -52,6 +53,10 @@ body {
     display: flex;
     justify-content: space-between;
 
+}
+
+.user-bio {
+    max-width: 400px;
 }
 
 .search-section {
@@ -94,6 +99,7 @@ body {
     padding: 1rem;
     font: inherit;
     color: #fff;
+    cursor: pointer;
     padding-inline: 2rem;
     border-radius: 10px;
     font-weight: 700;
